@@ -68,19 +68,27 @@ This guide provides comprehensive instructions for installing Termux and Python,
    ```
    chmod +x ~/script.py
    ```
-8. **Termux permission setup:**
-    - type ```
-    cd .termux
-    ```
-    - Once in the folder, type ```
-    nano termux.properties
-    ```
-    - A editor terminal will pop up, and add `allow-external-apps=true` at a empty line
-            - To navigate to a empty line on the editor, press and hold volume up button + s
-            - Once added, press and hold volume down button + o, enter, x. One by one sequentially using volume down button to save the file 
-            - type ```
-            cd
-            ``` to navigate to home directory
+8. **Termux Permission Setup:**
+   Follow these sub-checklist steps:
+   - [ ] Open the .termux directory by typing:
+     ```
+     cd .termux
+     ```
+   - [ ] Open the configuration file in nano:
+     ```
+     nano termux.properties
+     ```
+   - [ ] Within the nano editor, perform the following actions:
+       - [ ] Navigate to an empty line (press and hold the volume up button + s).
+       - [ ] Insert the line:
+             allow-external-apps=true
+       - [ ] Save the file:
+             - Press and hold the volume down button + o, then press Enter.
+             - Press the volume down button + x sequentially to exit.
+   - [ ] Return to the home directory by typing:
+     ```
+     cd
+     ```
 
 ## Run the flow
 1.  **Permission Setup in Automate:**
