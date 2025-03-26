@@ -83,8 +83,7 @@ This guide provides comprehensive instructions for installing Termux and Python,
        - Insert the line:
              allow-external-apps=true
        - Save the file:
-             - Press and hold the volume down button + o, then press Enter.
-             - Press the volume down button + x sequentially to exit.
+             - Press and hold the volume down button + o, press Enter, press the volume down button + x sequentially to exit.
    - Return to the home directory by typing:
      ```
      cd
