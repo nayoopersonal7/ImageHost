@@ -46,25 +46,41 @@ This guide provides comprehensive instructions for installing Termux and Python,
    pkg update && pkg upgrade
 ``        
     - Install Python:
-    ```  pkg install python```
+    ```  
+    pkg install python
+    ```
     - Verify the Installation:
-     ``python --version``
+     ```
+     python --version
+     ```
      You should see the Python version printed.
 7. **Setup Python script:**
    - Download the python script on your device
    - Check if the python script is available in download folder
-   ``ls /storage/emulated/0/Download/script.py``
+   ```
+   ls /storage/emulated/0/Download/script.py
+   ```
    - Move the file to Termux working directory
-   ``mv /storage/emulated/0/Download/script.py ~/script.py``
+   ```
+   mv /storage/emulated/0/Download/script.py ~/script.py
+   ```
    - Make the script executable
-   ``chmod +x ~/script.py``
+   ```
+   chmod +x ~/script.py
+   ```
 8. **Termux permission setup:**
-    - type ``cd .termux``
-    - Once in the folder, type ``nano termux.properties``
+    - type ```
+    cd .termux
+    ```
+    - Once in the folder, type ```
+    nano termux.properties
+    ```
     - A editor terminal will pop up, and add `allow-external-apps=true` at a empty line
             - To navigate to a empty line on the editor, press and hold volume up button + s
             - Once added, press and hold volume down button + o, enter, x. One by one sequentially using volume down button to save the file 
-            - type ``cd`` to navigate to home directory
+            - type ```
+            cd
+            ``` to navigate to home directory
 
 ## Run the flow
 1.  **Permission Setup in Automate:**
@@ -84,6 +100,8 @@ This guide provides comprehensive instructions for installing Termux and Python,
     - After starting the flow, if no error shown on logs, the flow executed successfully
 4. **Verify flow Completion:**
     - To verify successful flow completion, open Termux, on terminal, type:
-    ``cat helloworld.txt``
+    ```
+    cat helloworld.txt
+    ```
      - It should output `hello world`. If it does, then the flow is successful
    
