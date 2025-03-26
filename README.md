@@ -70,22 +70,22 @@ This guide provides comprehensive instructions for installing Termux and Python,
    ```
 8. **Termux Permission Setup:**
    Follow these sub-checklist steps:
-   - [ ] Open the .termux directory by typing:
+   - Open the .termux directory by typing:
      ```
      cd .termux
      ```
-   - [ ] Open the configuration file in nano:
+   - Open the configuration file in nano:
      ```
      nano termux.properties
      ```
-   - [ ] Within the nano editor, perform the following actions:
-       - [ ] Navigate to an empty line (press and hold the volume up button + s).
-       - [ ] Insert the line:
+   - Within the nano editor, perform the following actions:
+       - Navigate to an empty line (press and hold the volume up button + s).
+       - Insert the line:
              allow-external-apps=true
-       - [ ] Save the file:
+       - Save the file:
              - Press and hold the volume down button + o, then press Enter.
              - Press the volume down button + x sequentially to exit.
-   - [ ] Return to the home directory by typing:
+   - Return to the home directory by typing:
      ```
      cd
      ```
